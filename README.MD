@@ -8,9 +8,7 @@
 
 `Turma: INF08-M`
 
-### Resumo
-
-...
+--- 
 
 ### Aluna
 
