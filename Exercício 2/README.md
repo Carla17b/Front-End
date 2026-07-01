@@ -34,6 +34,7 @@ No exemplo abaixo, tudo foi construído usando apenas divisões genéricas. Para
 </div>
 
 ---
+---
 
 ## 🏛️ Análise Teórica: Table-Based Layout (Parte 5)
 
