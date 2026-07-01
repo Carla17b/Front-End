@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2 - Formulário de Contato</title>
+</head>
+<body>
+
+    <header>
+        <h1>Formulário de Contato</h1>
+        <nav>
+            <a href="index.html">Voltar para a Página Principal</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Envie uma Mensagem</h2>
+            
+            <form action="#" method="POST">
+                
+                <p>
+                    <label for="nome">Nome Completo:</label><br>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                </p>
+
+                <p>
+                    <label for="email">E-mail de Contato:</label><br>
+                    <input type="email" id="email" name="email" placeholder="nome@provedor.com" required>
+                </p>
+
+                <p>
+                    <label for="assunto">Assunto Principal:</label><br>
+                    <select id="assunto" name="assunto">
+                        <option value="duvida">Dúvida Geral</option>
+                        <option value="sugestao">Sugestão de Conteúdo</option>
+                        <option value="suporte">Suporte Técnico</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="mensagem">Mensagem ou Observação:</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="6" cols="40" placeholder="Escreva seu texto aqui..." required></textarea>
+                </p>
+
+                <p>
+                    <input type="submit" value="Enviar Dados">
+                </p>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Portal Tech & Games. Seção de atendimento ao usuário.</p>
+    </footer>
+
+</body>
+</html>
