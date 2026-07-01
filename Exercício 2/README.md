@@ -32,3 +32,19 @@ No exemplo abaixo, tudo foi construído usando apenas divisões genéricas. Para
 <div id="rodape">
     <p>&copy; 2026 - Meu Site Genérico</p>
 </div>
+
+---
+
+## 🏛️ Análise Teórica: Table-Based Layout (Parte 5)
+
+### Por que o Table-Based Layout é uma técnica antiga?
+Nos primórdios da web, o HTML não possuía tags de estrutura (como `main` ou `section`) e o CSS era extremamente limitado. Para conseguir alinhar elementos em colunas ou criar barras laterais fixas, os desenvolvedores usavam as propriedades de borda, alinhamento e largura das tabelas (`<table>`) para "forçar" o design visual da página.
+
+### Dificuldades encontradas nesta adaptação:
+1. **Rigidez e Responsividade:** Tabelas possuem larguras fixas por coluna. Adaptar essa estrutura para que ela fique bonita em telas de celulares modernos (responsividade) é extremamente complexo e ineficiente.
+2. **Mistura de Conceitos:** O código mistura a apresentação visual (largura, cor de fundo, alinhamento direto nas tags) com os dados brutos, quebrando o princípio de separação de responsabilidades (HTML para estrutura, CSS para estilo).
+3. **Acessibilidade Prejudicada:** Leitores de tela interpretam a tabela linha por linha, célula por célula. Ao ler um layout feito em tabela, o software diz ao usuário cego "Tabela com 3 linhas e 2 colunas", confundindo completamente a leitura do conteúdo real da página.
+
+### Comparação com a Estrutura Semântica Moderna:
+* **Tabelas para Layout:** Código poluído, difícil de ler, manutenção complexa (se você errar o fechamento de uma tag `</td>` ou `<tr>`, o design do site inteiro quebra) e sem significado semântico.
+* **Semântica + CSS Moderno:** Código limpo e legível. Elementos como `Flexbox` e `CSS Grid` cuidam do posicionamento visual com poucas linhas no arquivo de estilo, mantendo o HTML puro, focado apenas no significado do conteúdo e completamente acessível.
