@@ -1,6 +1,6 @@
 # Exercício 2: HTML Semântico vs Blocos Genéricos
 
-## 🎯 Diferença entre `<div>` e HTML Semântico
+## Diferença entre `<div>` e HTML Semântico
 
 A principal diferença entre usar blocos genéricos (como `<div>` e `<span>`) e usar elementos semânticos (como `<header>`, `<main>`, `<article>`) está no **significado** que cada tag carrega e em como os navegadores, motores de busca (SEO) e tecnologias assistivas interpretam a página.
 
@@ -9,7 +9,7 @@ A principal diferença entre usar blocos genéricos (como `<div>` e `<span>`) e 
 
 ---
 
-## 🛠️ Exemplo Prático
+## Exemplo Prático
 
 ### 1. Estrutura com Blocos Genéricos (Má Prática)
 No exemplo abaixo, tudo foi construído usando apenas divisões genéricas. Para entender o que cada parte faz, o navegador ou o desenvolvedor precisa ler as classes ou IDs.
