@@ -9,37 +9,61 @@
 <body>
 
     <header>
-        <h1>WeDo</h1>
-        <nav>
-            <a href="#hero">Início</a> | 
-            <a href="#sobre">Sobre</a> | 
-            <a href="#recursos">Recursos</a>
-        </nav>
+        <div class="container">
+            <h1>WeDo</h1>
+            <nav>
+                <a href="#inicio">Início</a> | 
+                <a href="#sobre">Sobre</a> | 
+                <a href="#beneficios">Benefícios</a> | 
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section id="hero">
-            <h2>Gerencie seus projetos acadêmicos em equipe</h2>
-            <p>A plataforma feita por estudantes para transformar a produtividade e a organização do seu grupo de estudos.</p>
-            <button>Começar Agora</button>
+        <section id="inicio" class="secao">
+            <div class="container">
+                <h2>Gerencie seus projetos acadêmicos em equipe</h2>
+                <p>A plataforma feita por estudantes para transformar a produtividade e a organização do seu grupo de estudos.</p>
+                <button class="botao-principal">Começar Agora</button>
+            </div>
         </section>
 
-        <section id="sobre">
-            <h2>Sobre o Projeto</h2>
-            <p>O WeDo nasceu da necessidade de centralizar cronogramas, tarefas e a comunicação de projetos acadêmicos em um único ambiente intuitivo.</p>
+        <section id="sobre" class="secao">
+            <div class="container">
+                <h2>Sobre o Projeto</h2>
+                <p>O WeDo nasceu da necessidade de centralizar cronogramas, tarefas e a comunicação de projetos acadêmicos em um único ambiente intuitivo.</p>
+            </div>
         </section>
 
-        <section id="recursos">
-            <h2>Recursos Principais</h2>
-            <ul>
-                <li><strong>Divisão de Tarefas Dinâmica:</strong> Atribua responsabilidades de forma clara.</li>
-                <li><strong>Linha do Tempo Compartilhada:</strong> Controle os prazos de entrega do semestre.</li>
-            </ul>
+        <section id="beneficios" class="secao">
+            <div class="container">
+                <h2>Recursos & Benefícios</h2>
+                <div class="cards-wrapper">
+                    <article class="card">
+                        <h3>Divisão Dinâmica</h3>
+                        <p>Atribua responsabilidades de forma clara e visual para todos os membros do grupo.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Linha do Tempo</h3>
+                        <p>Controle todos os prazos de entrega do semestre de maneira centralizada.</p>
+                    </article>
+                </style>
+            </div>
+        </section>
+
+        <section id="contato" class="secao">
+            <div class="container">
+                <h2>Entre em Contato</h2>
+                <p>Tem alguma dúvida ou gostaria de sugerir uma funcionalidade? Envie uma mensagem para o nosso time.</p>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>Desenvolvido por: <strong>Carla Rodrigues Castelo</strong> | Turma: <strong>ADS - PUC Minas</strong></p>
+        <div class="container">
+            <p>Desenvolvido por: <strong>Carla Rodrigues Castelo</strong> | Turma: <strong>ADS - PUC Minas</strong></p>
+        </div>
     </footer>
 
 </body>

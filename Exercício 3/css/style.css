@@ -1,16 +1,77 @@
-/* Teste visual de conexão externa */
+/* ==================== SELETORES DE TAG ==================== */
 body {
     background-color: #f4f7f6;
     color: #333333;
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Arial, sans-serif;
     margin: 0;
-    padding: 20px;
+    padding: 0;
+    line-height: 1.6;
 }
 
 h1 {
     color: #2c3e50;
+    margin: 0;
 }
 
 h2 {
     color: #2980b9;
+    margin-top: 0;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* ==================== SELETORES DE CLASSE ==================== */
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.secao {
+    padding: 50px 0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.botao-principal {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.botao-principal:hover {
+    background-color: #219653;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    border-left: 4px solid #2980b9;
+}
+
+/* ==================== SELETORES DE ID ==================== */
+#inicio {
+    background-color: #eaedd0; 
+    text-align: center;
 }
